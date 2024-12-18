@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with certain configurations.  The issue manifests as an inability to capture images or videos, with no explicit error messages being thrown.  The camera preview may appear correctly, but the `takePictureAsync` or `recordAsync` functions fail silently.
